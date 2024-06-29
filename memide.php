@@ -1,12 +1,12 @@
 <?php
-   $respuestas = array(
-       "vaya titan que tienes"
-       ,"casi tan largo como la torre eiffel"
-       ,"que buen buque de guerra tienes"
-       ,"Mehh"
-       ,"ni cosquillas hace esa madre"
-       ,"mas pequeño que un atomo"
-       );
-   $random = array_rand($respuestas);
-   echo $respuestas[$random];
-?>
+    $respuestas = array(
+        "Vaya titan que tienes",
+        "Casi tan grande como la torre Eiffel",
+        "meh",
+        "a eso le llamas titan? ",
+        "mas pequeño que un chetto",
+        "tiene mas peluche que miembro"
+        );
+    $random = array_rand($respuestas);
+    echo $respuestas[$random];
+    ?>
